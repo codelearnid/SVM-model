@@ -1,4 +1,4 @@
-Founder : *Arif Wicaksono Septyanto*
+Founder : *Arif Wicaksono Septyanto* <br>
 Email : arif.septyanto@gmail.com
 
 ### Render the book
