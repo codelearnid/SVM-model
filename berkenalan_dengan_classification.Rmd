@@ -1,0 +1,29 @@
+# Sejarah Klasifikasi
+Model klasifikasi dalam konteks pembelajaran mesin (machine learning) adalah hasil pengembangan dan penelitian oleh banyak ilmuwan dan peneliti dalam bidang komputer, statistik, dan ilmu data selama beberapa dekade. Tidak ada satu individu atau pendiri tunggal yang dapat diidentifikasi sebagai pendiri model klasifikasi.
+
+Model klasifikasi yang paling awal, seperti model regresi logistik dalam statistik, telah ada sejak awal abad ke-20. Namun, dalam konteks pembelajaran mesin modern, banyak ilmuwan dan peneliti telah berkontribusi untuk mengembangkan berbagai algoritma klasifikasi dan model seperti Support Vector Machines (SVM), Naive Bayes, Decision Trees, Random Forests, dan Deep Learning, yang digunakan secara luas dalam berbagai aplikasi.
+
+Jadi, model klasifikasi adalah hasil dari penelitian kolaboratif selama bertahun-tahun oleh berbagai individu dan kelompok penelitian di seluruh dunia, dan tidak dapat diatribusikan kepada satu pendiri tunggal. Hal ini mencerminkan sifat perkembangan ilmu pengetahuan dan teknologi yang melibatkan kontribusi dari banyak individu dan komunitas.
+
+## Pengertian Klasifikasi
+Klasifikasi adalah salah satu tugas penting dalam pembelajaran mesin dan statistik yang melibatkan pengelompokan atau penempatan objek data ke dalam kategori atau kelas tertentu berdasarkan fitur atau karakteristik tertentu. Tujuan utama dari klasifikasi adalah untuk memprediksi atau mengidentifikasi kelas atau label yang sesuai untuk setiap objek data berdasarkan informasi yang ada.
+
+Contoh umum klasifikasi termasuk:
+
+1. Klasifikasi Email: Misalnya, memprediksi apakah sebuah email adalah spam atau bukan spam berdasarkan isinya.
+2. Klasifikasi Gambar: Mengidentifikasi objek dalam gambar, seperti mengklasifikasikan gambar sebagai kucing, anjing, mobil, atau lainnya.
+3. Klasifikasi Medis: Mendiagnosis penyakit berdasarkan data medis pasien, seperti mengklasifikasikan apakah seorang pasien memiliki penyakit jantung atau tidak berdasarkan hasil tes.
+4. Klasifikasi Sentimen: Menentukan apakah suatu teks atau ulasan memiliki sentimen positif, negatif, atau netral.
+5. Klasifikasi Kejahatan: Mengklasifikasikan laporan kejahatan ke dalam jenis-jenis kejahatan tertentu.
+5. Klasifikasi Pekerjaan: Mengklasifikasikan pekerjaan berdasarkan deskripsi pekerjaan atau kualifikasi.
+
+Untuk melakukan klasifikasi, model pembelajaran mesin seperti Support Vector Machines (SVM), Naive Bayes, Decision Trees, Random Forests, dan Deep Learning (misalnya, menggunakan jaringan saraf tiruan) dapat digunakan. Model-model ini diajar untuk memahami pola dalam data pelatihan yang digunakan untuk melatih model, dan kemudian model tersebut digunakan untuk memprediksi kelas atau label untuk data baru yang belum pernah dilihat sebelumnya.
+
+Klasifikasi adalah komponen kunci dalam banyak aplikasi pembelajaran mesin dan memiliki banyak manfaat dalam pengambilan keputusan dan otomatisasi tugas-tugas yang melibatkan pengelompokan data berdasarkan atribut tertentu.
+
+## Support Vector Machine (SVM)
+Algoritma SVM merupakan model pembelajaran terarah yang sangat efektif untuk tujuan klasifikasi dan pengenalan pola, yang bertujuan untuk menemukan bidang pemisah terbaik (Hyperplane) yang memisahkan dua buah kelas pada ruang masukan dengan bekerja meminimalkan risiko empiris (Empirical Risk Minimization) dan meminimalkan risiko strutural (Structural Risk Minimization) yang meminimalkan kesalahan atau selisih antara nilai target pada himpunan data pelatihan dengan keluaran yang dihasilkan oleh model tersebut dan menghasilkan generalisasi yang baik untuk mengklasifikasikan data yang tidak terdapat dalam data pelatihan [22]. Gambar 2.1 menunjukkan beberapa pola yang merupakan anggota dari dua kelas, +1 dan -1, kelas 1 dengan simbol kotak warna merah untuk pola -1 dan kelas 2 dengan simbol lingkaran berwarna hijau untuk pola +1, terlihat juga sejumlah pilihan bidang pemisah yang mungkin. 
+
+Kemampuan generalisasi suatu metode dalam mengklasifikasikan suatu pola yang tidak termasuk data yang dipakai dalam fase pembelajaran dipengaruhi oleh dua faktor yaitu kesalahan terhadap himpunan data latih dan faktor pengaruh dimensi VC (Vapnik-Chervonenkis). Kelebihan lain SVM adalah tingkat generalisasi yang diperoleh tidak dipengaruhi oleh dimensi dari vektor masukan dalam mengestimasikan parameter (jumlah neuron tersembunyi pada neural network, laju belajar, kriteria berhenti dalam peroses pembelajaran, dan sebagainya), dikarenakan jumlah sampel data yang relatif sedikit dibandingkan dengan ruang vektor data tersebut. 
+
+

@@ -1,5 +1,8 @@
-introduction
+deskripsi-buku
 tentang-penulis
+sejarah-klasifikasi
+pengertian-klasifikasi
+support-vector-machine-svm
 proposal
 research-topic
 data-availability

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 3 Sejarah Klasifikasi | Support Vector Machine: Teori dan Aplikasi</title>
+  <meta name="description" content="Chapter 3 Sejarah Klasifikasi | Support Vector Machine: Teori dan Aplikasi" />
+  <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 3 Sejarah Klasifikasi | Support Vector Machine: Teori dan Aplikasi" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 3 Sejarah Klasifikasi | Support Vector Machine: Teori dan Aplikasi" />
+  
+  
+  
+
+<meta name="author" content="Arif Wicaksono Septyanto" />
+
+
+<meta name="date" content="2023-09-15" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="tentang-penulis.html"/>
+<link rel="next" href="proposal.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">SVM-Model</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Deskripsi Buku</a></li>
+<li class="chapter" data-level="2" data-path="tentang-penulis.html"><a href="tentang-penulis.html"><i class="fa fa-check"></i><b>2</b> Tentang Penulis</a></li>
+<li class="chapter" data-level="3" data-path="sejarah-klasifikasi.html"><a href="sejarah-klasifikasi.html"><i class="fa fa-check"></i><b>3</b> Sejarah Klasifikasi</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="sejarah-klasifikasi.html"><a href="sejarah-klasifikasi.html#pengertian-klasifikasi"><i class="fa fa-check"></i><b>3.1</b> Pengertian Klasifikasi</a></li>
+<li class="chapter" data-level="3.2" data-path="sejarah-klasifikasi.html"><a href="sejarah-klasifikasi.html#support-vector-machine-svm"><i class="fa fa-check"></i><b>3.2</b> Support Vector Machine (SVM)</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="proposal.html"><a href="proposal.html"><i class="fa fa-check"></i><b>4</b> Proposal</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="proposal.html"><a href="proposal.html#research-topic"><i class="fa fa-check"></i><b>4.1</b> Research topic</a></li>
+<li class="chapter" data-level="4.2" data-path="proposal.html"><a href="proposal.html#data-availability"><i class="fa fa-check"></i><b>4.2</b> Data availability</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>5</b> Data</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="data.html"><a href="data.html#sources"><i class="fa fa-check"></i><b>5.1</b> Sources</a></li>
+<li class="chapter" data-level="5.2" data-path="data.html"><a href="data.html#cleaning-transformation"><i class="fa fa-check"></i><b>5.2</b> Cleaning / transformation</a></li>
+<li class="chapter" data-level="5.3" data-path="data.html"><a href="data.html#missing-value-analysis"><i class="fa fa-check"></i><b>5.3</b> Missing value analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>6</b> Results</a></li>
+<li class="chapter" data-level="7" data-path="interactive-component.html"><a href="interactive-component.html"><i class="fa fa-check"></i><b>7</b> Interactive component</a></li>
+<li class="chapter" data-level="8" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>8</b> Conclusion</a></li>
+<li class="divider"></li>
+<!-- <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li> -->
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Support Vector Machine: Teori dan Aplikasi</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="sejarah-klasifikasi" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Sejarah Klasifikasi<a href="sejarah-klasifikasi.html#sejarah-klasifikasi" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Model klasifikasi dalam konteks pembelajaran mesin (machine learning) adalah hasil pengembangan dan penelitian oleh banyak ilmuwan dan peneliti dalam bidang komputer, statistik, dan ilmu data selama beberapa dekade. Tidak ada satu individu atau pendiri tunggal yang dapat diidentifikasi sebagai pendiri model klasifikasi.</p>
+<p>Model klasifikasi yang paling awal, seperti model regresi logistik dalam statistik, telah ada sejak awal abad ke-20. Namun, dalam konteks pembelajaran mesin modern, banyak ilmuwan dan peneliti telah berkontribusi untuk mengembangkan berbagai algoritma klasifikasi dan model seperti Support Vector Machines (SVM), Naive Bayes, Decision Trees, Random Forests, dan Deep Learning, yang digunakan secara luas dalam berbagai aplikasi.</p>
+<p>Jadi, model klasifikasi adalah hasil dari penelitian kolaboratif selama bertahun-tahun oleh berbagai individu dan kelompok penelitian di seluruh dunia, dan tidak dapat diatribusikan kepada satu pendiri tunggal. Hal ini mencerminkan sifat perkembangan ilmu pengetahuan dan teknologi yang melibatkan kontribusi dari banyak individu dan komunitas.</p>
+<div id="pengertian-klasifikasi" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Pengertian Klasifikasi<a href="sejarah-klasifikasi.html#pengertian-klasifikasi" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Klasifikasi adalah salah satu tugas penting dalam pembelajaran mesin dan statistik yang melibatkan pengelompokan atau penempatan objek data ke dalam kategori atau kelas tertentu berdasarkan fitur atau karakteristik tertentu. Tujuan utama dari klasifikasi adalah untuk memprediksi atau mengidentifikasi kelas atau label yang sesuai untuk setiap objek data berdasarkan informasi yang ada.</p>
+<p>Contoh umum klasifikasi termasuk:</p>
+<ol style="list-style-type: decimal">
+<li>Klasifikasi Email: Misalnya, memprediksi apakah sebuah email adalah spam atau bukan spam berdasarkan isinya.</li>
+<li>Klasifikasi Gambar: Mengidentifikasi objek dalam gambar, seperti mengklasifikasikan gambar sebagai kucing, anjing, mobil, atau lainnya.</li>
+<li>Klasifikasi Medis: Mendiagnosis penyakit berdasarkan data medis pasien, seperti mengklasifikasikan apakah seorang pasien memiliki penyakit jantung atau tidak berdasarkan hasil tes.</li>
+<li>Klasifikasi Sentimen: Menentukan apakah suatu teks atau ulasan memiliki sentimen positif, negatif, atau netral.</li>
+<li>Klasifikasi Kejahatan: Mengklasifikasikan laporan kejahatan ke dalam jenis-jenis kejahatan tertentu.</li>
+<li>Klasifikasi Pekerjaan: Mengklasifikasikan pekerjaan berdasarkan deskripsi pekerjaan atau kualifikasi.</li>
+</ol>
+<p>Untuk melakukan klasifikasi, model pembelajaran mesin seperti Support Vector Machines (SVM), Naive Bayes, Decision Trees, Random Forests, dan Deep Learning (misalnya, menggunakan jaringan saraf tiruan) dapat digunakan. Model-model ini diajar untuk memahami pola dalam data pelatihan yang digunakan untuk melatih model, dan kemudian model tersebut digunakan untuk memprediksi kelas atau label untuk data baru yang belum pernah dilihat sebelumnya.</p>
+<p>Klasifikasi adalah komponen kunci dalam banyak aplikasi pembelajaran mesin dan memiliki banyak manfaat dalam pengambilan keputusan dan otomatisasi tugas-tugas yang melibatkan pengelompokan data berdasarkan atribut tertentu.</p>
+</div>
+<div id="support-vector-machine-svm" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Support Vector Machine (SVM)<a href="sejarah-klasifikasi.html#support-vector-machine-svm" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Algoritma SVM merupakan model pembelajaran terarah yang sangat efektif untuk tujuan klasifikasi dan pengenalan pola, yang bertujuan untuk menemukan bidang pemisah terbaik (Hyperplane) yang memisahkan dua buah kelas pada ruang masukan dengan bekerja meminimalkan risiko empiris (Empirical Risk Minimization) dan meminimalkan risiko strutural (Structural Risk Minimization) yang meminimalkan kesalahan atau selisih antara nilai target pada himpunan data pelatihan dengan keluaran yang dihasilkan oleh model tersebut dan menghasilkan generalisasi yang baik untuk mengklasifikasikan data yang tidak terdapat dalam data pelatihan [22]. Gambar 2.1 menunjukkan beberapa pola yang merupakan anggota dari dua kelas, +1 dan -1, kelas 1 dengan simbol kotak warna merah untuk pola -1 dan kelas 2 dengan simbol lingkaran berwarna hijau untuk pola +1, terlihat juga sejumlah pilihan bidang pemisah yang mungkin.</p>
+<p>Kemampuan generalisasi suatu metode dalam mengklasifikasikan suatu pola yang tidak termasuk data yang dipakai dalam fase pembelajaran dipengaruhi oleh dua faktor yaitu kesalahan terhadap himpunan data latih dan faktor pengaruh dimensi VC (Vapnik-Chervonenkis). Kelebihan lain SVM adalah tingkat generalisasi yang diperoleh tidak dipengaruhi oleh dimensi dari vektor masukan dalam mengestimasikan parameter (jumlah neuron tersembunyi pada neural network, laju belajar, kriteria berhenti dalam peroses pembelajaran, dan sebagainya), dikarenakan jumlah sampel data yang relatif sedikit dibandingkan dengan ruang vektor data tersebut.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="tentang-penulis.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="proposal.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/codelearnid/SVM-model/edit/main/berkenalan_dengan_classification.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/codelearnid/SVM-model/blob/main/berkenalan_dengan_classification.Rmd",
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

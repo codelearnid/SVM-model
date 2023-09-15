@@ -10,7 +10,8 @@ language:
 rmd_files: [
   'tentang_penulis.Rmd',
   'index.Rmd',
-  'proposal.Rmd',
+  'berkenalan_dengan_classification.Rmd',
+  'berkenalan_dengan_svm.Rmd',
   'data.Rmd',
   'results.Rmd',
   'interactive.Rmd',
