@@ -1,0 +1,7 @@
+# Tentang Penulis
+
+<p align="center">
+  <img src="img/FOTO.jpg" alt="Alt Text" width="400" height="">
+</p>
+
+

@@ -1,6 +1,6 @@
 --- 
-title: "YOUR TITLE HERE"
-author: "YOUR NAMES HERE"
+title: "Support Vector Machine: Teori dan Aplikasi"
+author: "Arif Wicaksono Septyanto"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
