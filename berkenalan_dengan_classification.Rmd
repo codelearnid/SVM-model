@@ -26,4 +26,7 @@ Algoritma SVM merupakan model pembelajaran terarah yang sangat efektif untuk tuj
 
 Kemampuan generalisasi suatu metode dalam mengklasifikasikan suatu pola yang tidak termasuk data yang dipakai dalam fase pembelajaran dipengaruhi oleh dua faktor yaitu kesalahan terhadap himpunan data latih dan faktor pengaruh dimensi VC (Vapnik-Chervonenkis). Kelebihan lain SVM adalah tingkat generalisasi yang diperoleh tidak dipengaruhi oleh dimensi dari vektor masukan dalam mengestimasikan parameter (jumlah neuron tersembunyi pada neural network, laju belajar, kriteria berhenti dalam peroses pembelajaran, dan sebagainya), dikarenakan jumlah sampel data yang relatif sedikit dibandingkan dengan ruang vektor data tersebut. 
 
+### Tahapan SVM
+tahapan ini merupakan...
+
 

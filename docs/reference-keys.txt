@@ -3,6 +3,7 @@ tentang-penulis
 sejarah-klasifikasi
 pengertian-klasifikasi
 support-vector-machine-svm
+tahapan-svm
 proposal
 research-topic
 data-availability
