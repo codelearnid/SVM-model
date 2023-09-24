@@ -4,5 +4,7 @@ author: "Arif Wicaksono Septyanto"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
-
 # Deskripsi Buku
+<p align="center">
+  <img src="img/Cover.png" alt="Alt Text" width="800" height="" style="border: 2px solid #000;">
+</p>
