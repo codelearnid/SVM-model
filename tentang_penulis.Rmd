@@ -18,3 +18,14 @@ output: html_document
 ## Video YouTube
 
 <iframe width="560" height="315" src="https://youtu.be/yMdMDhd8zx4?si=_wuPh3PFq7g7S5yQ" frameborder="0" allowfullscreen></iframe>
+
+
+```{=html}
+<p>Any <strong>raw</strong> HTML content works here.
+For example, here is a Youtube video:</p>
+
+<iframe width="100%" height="400"
+  src="https://youtu.be/yMdMDhd8zx4?si=_wuPh3PFq7g7S5yQ"
+  frameborder="0" allow="autoplay; encrypted-media"
+  allowfullscreen></iframe>
+```
