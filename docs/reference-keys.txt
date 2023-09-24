@@ -1,5 +1,6 @@
 deskripsi-buku
 tentang-penulis
+video-youtube
 sejarah-klasifikasi
 pengertian-klasifikasi
 support-vector-machine-svm
