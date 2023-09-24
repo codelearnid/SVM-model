@@ -12,7 +12,7 @@ Pada 2019 bergabung menjadi Dosen pada Universitas Duta Bangsa Surakarta sampai 
 
 ---
 title: "Contoh R Markdown dengan Video YouTube"
-output: html_document
+output: html_document ok
 ---
 
 ## Video YouTube
