@@ -17,15 +17,12 @@ output: html_document ok
 
 ## Video YouTube
 
-<iframe width="560" height="315" src="https://youtu.be/yMdMDhd8zx4?si=_wuPh3PFq7g7S5yQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yMdMDhd8zx4?si=n5eb1K1FxfrxfYHJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ```{=html}
 <p>Any <strong>raw</strong> HTML content works here.
 For example, here is a Youtube video:</p>
 
-<iframe width="100%" height="400"
-  src="https://youtu.be/yMdMDhd8zx4?si=_wuPh3PFq7g7S5yQ"
-  frameborder="0" allow="autoplay; encrypted-media"
-  allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yMdMDhd8zx4?si=n5eb1K1FxfrxfYHJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ```
