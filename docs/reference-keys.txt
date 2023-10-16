@@ -5,6 +5,7 @@ sejarah-klasifikasi
 pengertian-klasifikasi
 support-vector-machine-svm
 tahapan-svm
+modul-kuliah-minggu-ke-2---materi-css
 proposal
 research-topic
 data-availability

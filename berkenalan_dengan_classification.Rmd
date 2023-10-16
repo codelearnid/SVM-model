@@ -29,4 +29,53 @@ Kemampuan generalisasi suatu metode dalam mengklasifikasikan suatu pola yang tid
 ### Tahapan SVM
 tahapan ini merupakan...
 
+### Modul Kuliah Minggu Ke 2 - Materi CSS
+Dosen Pengampu : **Arif Wicaksono Septyanto**
+
+Tujuan :
+- Memahami dasar-dasar CSS dalam membangun sebuah Web.
+
+Aturan Dasar Penulisan CSS
+Cascading Style Sheets (CSS) digunakan untuk mengatur tampilan dan gaya elemen-elemen HTML di halaman web. Berikut adalah beberapa aturan dasar penulisan CSS:
+
+Selektor: Selektor adalah elemen HTML yang ingin Anda gayakan. Misalnya, jika Anda ingin mengubah tampilan semua paragraf di halaman, maka ``<p>`` adalah selektornya.
+
+Properti: Properti adalah atribut gaya yang ingin Anda terapkan pada elemen terpilih. Misalnya, untuk mengubah warna teks, properti yang digunakan adalah color.
+
+Nilai Properti: Setiap properti memiliki nilai yang dapat Anda atur. Misalnya, untuk properti color, nilai bisa berupa nama warna (seperti "red" atau "blue") atau kode warna (seperti "#FF0000" untuk merah).
+
+Deklarasi: Deklarasi adalah kombinasi dari properti dan nilai yang diterapkan pada selektor. Deklarasi ini ditempatkan di dalam blok gaya yang diapit oleh tanda kurung kurawal {}.
+
+Contoh aturan dasar penulisan CSS:
+
+```css
+/* Selektor: Mengubah semua paragraf */
+p {
+  color: blue;
+  font-size: 16px;
+  margin: 10px;
+}
+
+/* Selektor: Mengubah elemen dengan class "highlight" */
+.highlight {
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+/* Selektor: Mengubah elemen dengan id "header" */
+#header {
+  text-align: center;
+  font-size: 24px;
+}
+```
+Dalam contoh di atas, Anda melihat penggunaan selektor seperti p, .highlight, dan #header. Setiap selektor diikuti oleh blok deklarasi yang berisi properti dan nilai yang ingin Anda terapkan pada elemen yang dipilih.
+
+Beberapa aturan dasar tambahan yang perlu diingat:
+
+1. Spasi dan Indentasi: Gunakan spasi atau tab untuk mengindentasi kode agar lebih mudah dibaca. Ini tidak mempengaruhi tampilan tetapi membuat kode lebih terstruktur.
+2. Komentar: Anda dapat menambahkan komentar di CSS dengan menggunakan tanda /* komentar */. Komentar ini akan diabaikan oleh browser dan hanya berfungsi untuk keperluan dokumentasi.
+3. Case Sensitivity: CSS bersifat case-insensitive untuk nama elemen dan atribut, tetapi case-sensitive untuk nama kelas, id, serta nama properti dan nilai.
+4. Kaskade: Jika ada beberapa aturan CSS yang diterapkan pada elemen yang sama, maka aturan yang lebih spesifik atau yang terakhir dideklarasikan akan digunakan.
+5. Unit: Nilai-nilai seperti ukuran font atau lebar harus diberikan dalam unit yang sesuai seperti px, em, rem, %, dll.
+
 
